@@ -42,7 +42,7 @@ function displayTemperature(response) {
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 function lookUp(city) {
-  let apiKey = "afd2be167f88dd904bc213780db71233";
+  let apiKey = "d3c980000de9297354460be9460728c9";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayTemperature);
 }
