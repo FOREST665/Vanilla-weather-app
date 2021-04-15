@@ -1,5 +1,6 @@
 body {
   font-family: "Noto Serif", serif;
+  background-color: #9fd8df;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -7,10 +8,12 @@ body {
   padding: 20px;
   border: 1px solid #f0e4d7;
   border-radius: 10px;
+  background-color: #f0e4d7;
 }
-.coding-info {
+.info {
   margin: 0 auto;
   max-width: 600px;
+  color: #9fd8df;
 }
 .current-temperature {
   font-size: 35px;
